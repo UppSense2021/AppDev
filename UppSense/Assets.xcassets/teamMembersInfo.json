@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Viktoria",
+        "description": "Hey! I am Viktoria Langwallner from Austria. Currently, I am pursuing my master’s degree in chemistry specializing in chemical biology. I am very excited for this opportunity to develop a biosensor with such an international and diverse team. It will be so interesting to see the different ideas of what my teammates and I will be able to come up with to develop and design the biosensor. It is also going to be very rewarding to work and learn in such a diverse group.",
+        "imageName": "viktoria"
+    },
+    {
+        "id": 2,
+        "name": "Jayendra",
+        "description": "Hej, My name is Jayendra and I am from India. I am currently a first year Master’s student in Embedded Systems. SensUs provides a great opportunity to combine my field of study with multiple disciplines to create a device which could potentially benefit lives. To collaborate with people from such varied backgrounds is a challenge in itself and provides a lot of scope to learn about working with such a team. I intend to learn, create, collaborate, and have a lot of fun along the way.",
+        "imageName": "jayendra"
+    },
+    {
+        "id": 3,
+        "name": "Sam",
+        "description": "My name’s Sam, I’m from the UK studying a master’s in Energy Physics at Uppsala university. I’m really excited to start working with like-minded individuals towards a common goal and learning huge amounts of knowledge along the way. I’m hoping my previous experience with optics, coding and other areas of physics will come in handy but only time will tell!",
+        "imageName": "sam"
+    },
+    {
+        "id": 4,
+        "name": "Maike",
+        "description": "Hi, my name is Maike. I received my bachelor’s degree in Life Science from Germany and now I am in my final year of the Master program in Applied Biotechnology at Uppsala University. I am happy to join this year’s interdisciplinary and international SensUs team and work together with everyone towards a common goal: finding innovative solutions to society’s needs. The SensUs competition is a great opportunity to make use of the skills and knowledge I acquired during my studies and I hope to learn even more from my fellow team-mates.",
+        "imageName": "maike"
+    },
+    {
+        "id": 5,
+        "name": "Maria Ines",
+        "description": "I’m Maria Ines, I’m a student in the MSc of Biomedicine. I define myself as an ordinary person with an extraordinary dream. I’m in love with the mysteries of the human body, and I have been in love with it since I remember. I can’t wait to have fun in this incredible competition and to experience something completely new.",
+        "imageName": "ines"
+    },
+    {
+        "id": 6,
+        "name": "Carlos",
+        "description": "Hej! My name is Carlos and I’m a chemist from Guatemala, I have experience in Green Chemistry and Catalysis. Here in Uppsala, I’m enrolled in the Master in Chemistry for Renewable Energy, I joined Sensus because it seems like a great opportunity to do applied science by preparing and exploring new materials from a chemical point of view while working along a brilliant multidisciplinary team.",
+        "imageName": "carlos"
+    },
+    {
+        "id": 7,
+        "name": "Javier",
+        "description": "This is Javier Sebastián student of MSc in Chemistry for Renewable Energy with bachelor’s in chemical engineering. I see SensUs as a great opportunity to grow personally because this course opens the door of doing a project that is interdisciplinary. Moreover, it is a project that can directly save lives in the future. The latter is a big point of SensUs for me because we should not fall in love with the Solution or Device that we chose we must fall in love with the problem that we aiming to solve. Personally, I am a driven student with deep knowledge about solar cells, but as well as a person that enjoys learning from other people and likes to participate at good discussions. Therefore, I hope that I bring serenity, confidence and working power to the team 2021.",
+        "imageName": "javier"
+    },
+    {
+        "id": 8,
+        "name": "Sharmilee",
+        "description": "Hey! This is Sharmilee Nandi, a first-year master’s student majoring in the field of Biotechnology. As a self-motivated research enthusiast, I am greatly interested in the advancement of biological sciences for the increased efficiency of the existing and novel technologies alike. Thus, being able to make it to SensUs 2021 feels great. I am excited to make use of this amazing opportunity to integrate my learnings while developing new skill sets with my fellow teammates.",
+        "imageName": "sharmilee"
+    },
+    {
+        "id": 9,
+        "name": "Ivana",
+        "description": "Hi, I’m Ivana Jovanović. I come from Serbia where I finished my BSc in biochemistry. Being a part of the UppSense community is an exciting opportunity to make use of my skills in wet lab and make a difference while working with inspiring team!",
+        "imageName": "ivana"
+    },
+    {
+        "id": 10,
+        "name": "Yifan",
+        "description": "This is Yifan, one of the SenseUs team’s engineer, I’m from China, and currently a master student. For SenseUs project I wish I could make some friends and learn how to do group works in a multi culture team!",
+        "imageName": "yifan"
+    },
+    {
+        "id": 11,
+        "name": "Georgia-Vasiliki",
+        "description": "Hello, I am Georgia-Vasiliki, but everyone calls me Jovanna. I am from Greece and right now I am studying a master in Biomedicine at Uppsala University. Wherever I am, I still have the same goal in life: to make a difference. The quote with which I walk in my life is “Be the change that you wish to see in the world. I am looking forward to living this unique SensUs experience!",
+        "imageName": "jovanna"
+    },
+    {
+        "id": 12,
+        "name": "Klara",
+        "description": "My name is Klara Martinović and I come from a beautiful coastal city of Zadar, Croatia. I have always been interested in human pathogens and now I am a student of master program in Infection biology. I hope that I will both learn a lot from and contribute a lot to our project. Even though our final goal is to make the best biosensor, I hope that along the way we will build some great friendships and have a lot of fun.",
+        "imageName": "klara"
+    },
+    {
+        "id": 13,
+        "name": "Maria",
+        "description": "I’m Maria Lysandrou and I come from Cyprus. I have a Bachelors in Biomedicine and currently I’m part of the International Master in Innovative Medicine (IMIM) here at Uppsala University! I’m super excited being part of the SensUs Uppsala 2021 team and can’t wait to see our product!",
+        "imageName": "maria"
+    },
+    {
+        "id": 14,
+        "name": "David",
+        "description": "Hi! My name is David Bern, I’m from the Czech Republic (Czechia now), and I was very excited when I got the chance to join the University of Uppsala SensUs team 2021. I think that the SensUs competition offers us the unique opportunity to stimulate the inter-disciplinary development of a real, working biosensor. As a Physics master student, I hope to expand my know-how to the other disciplines that are involved by learning from my fellow teammates and complement the team with my problem-solving skills.",
+        "imageName": "david"
+    },
+    {
+        "id": 15,
+        "name": "Patrizia",
+        "description": "Hej! My name is Patrizia and I am from Germany, where I did my bachelor’s in Molecular Medicine and now, I am a first-year student in the master’s program Molecular Medicine here at Uppsala University. SensUs seemed to be a fantastic opportunity for me to connect my studies with something new I never did before and to be part of a highly motivated and interdisciplinary team with the common aim to create a biosensor.",
+        "imageName": "patrizia"
+    }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id" : 1,
+    "result" : "Positive",
+    "biosensorID" : "XA78",
+    "testID" : "1768",
+    "date" : "4th September 2021",
+    "time" : "23:56 CET",
+    "coordinates": {
+            "longitude": -152.665167,
+            "latitude": 59.980167
+        }
+  },
+  {
+    "id" : 2,
+    "result" : "Negative",
+    "biosensorID" : "XA78",
+    "testID" : "1769",
+    "date" : "10th October 2021",
+    "time" : "12:30 CET",
+    "coordinates": {
+            "longitude": -135.334571,
+            "latitude": 59.560551
+    }
+  }
+]
