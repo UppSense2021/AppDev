@@ -14,6 +14,16 @@
 		691FA4EF2678EEE0004B7590 /* UppSenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FA4EE2678EEE0004B7590 /* UppSenseTests.swift */; };
 		691FA4FA2678EEE0004B7590 /* UppSenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FA4F92678EEE0004B7590 /* UppSenseUITests.swift */; };
 		691FA518267A4195004B7590 /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FA517267A4195004B7590 /* BLEController.swift */; };
+		6925010026B6A13200903FD4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692500FF26B6A13200903FD4 /* LocationManager.swift */; };
+		6925011026B6BB3300903FD4 /* results_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6925010F26B6BB3300903FD4 /* results_2.json */; };
+		699F17A9268DFDAC00419271 /* QRCodeGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17A8268DFDAC00419271 /* QRCodeGen.swift */; };
+		699F17B32691C8F000419271 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17B22691C8F000419271 /* ResultsView.swift */; };
+		699F17BB2691C90D00419271 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17BA2691C90D00419271 /* AboutUsView.swift */; };
+		699F17C02691C93600419271 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17BF2691C93600419271 /* ContactUsView.swift */; };
+		699F17C5269269DD00419271 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17C4269269DD00419271 /* HomeView.swift */; };
+		699F17CA26932BFB00419271 /* teamMembersInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 699F17C926932BFB00419271 /* teamMembersInfo.json */; };
+		699F17CF26932D1A00419271 /* aboutUsJSONmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17CE26932D1A00419271 /* aboutUsJSONmodel.swift */; };
+		69DFB29A2696644600543408 /* resultsJSONModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DFB2992696644600543408 /* resultsJSONModel .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		691FA4F92678EEE0004B7590 /* UppSenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UppSenseUITests.swift; sourceTree = "<group>"; };
 		691FA4FB2678EEE0004B7590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		691FA517267A4195004B7590 /* BLEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
+		692500FF26B6A13200903FD4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6925010F26B6BB3300903FD4 /* results_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = results_2.json; path = Assets.xcassets/results_2.json; sourceTree = "<group>"; };
+		699F17A8268DFDAC00419271 /* QRCodeGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGen.swift; sourceTree = "<group>"; };
+		699F17B22691C8F000419271 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		699F17BA2691C90D00419271 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		699F17BF2691C93600419271 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		699F17C4269269DD00419271 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		699F17C926932BFB00419271 /* teamMembersInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = teamMembersInfo.json; path = Assets.xcassets/teamMembersInfo.json; sourceTree = "<group>"; };
+		699F17CE26932D1A00419271 /* aboutUsJSONmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUsJSONmodel.swift; sourceTree = "<group>"; };
+		69DFB2992696644600543408 /* resultsJSONModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "resultsJSONModel .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +119,18 @@
 			children = (
 				691FA4DC2678EEDF004B7590 /* UppSenseApp.swift */,
 				691FA4DE2678EEDF004B7590 /* ContentView.swift */,
+				692500FF26B6A13200903FD4 /* LocationManager.swift */,
 				691FA4E02678EEE0004B7590 /* Assets.xcassets */,
 				691FA517267A4195004B7590 /* BLEController.swift */,
+				699F17A8268DFDAC00419271 /* QRCodeGen.swift */,
+				699F17C4269269DD00419271 /* HomeView.swift */,
+				699F17B22691C8F000419271 /* ResultsView.swift */,
+				69DFB2992696644600543408 /* resultsJSONModel .swift */,
+				699F17BA2691C90D00419271 /* AboutUsView.swift */,
+				6925010F26B6BB3300903FD4 /* results_2.json */,
+				699F17CE26932D1A00419271 /* aboutUsJSONmodel.swift */,
+				699F17C926932BFB00419271 /* teamMembersInfo.json */,
+				699F17BF2691C93600419271 /* ContactUsView.swift */,
 				691FA4E52678EEE0004B7590 /* Info.plist */,
 				691FA4E22678EEE0004B7590 /* Preview Content */,
 			);
@@ -236,6 +266,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699F17CA26932BFB00419271 /* teamMembersInfo.json in Resources */,
+				6925011026B6BB3300903FD4 /* results_2.json in Resources */,
 				691FA4E42678EEE0004B7590 /* Preview Assets.xcassets in Resources */,
 				691FA4E12678EEE0004B7590 /* Assets.xcassets in Resources */,
 			);
@@ -263,7 +295,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				691FA4DF2678EEDF004B7590 /* ContentView.swift in Sources */,
+				699F17C02691C93600419271 /* ContactUsView.swift in Sources */,
 				691FA518267A4195004B7590 /* BLEController.swift in Sources */,
+				6925010026B6A13200903FD4 /* LocationManager.swift in Sources */,
+				699F17A9268DFDAC00419271 /* QRCodeGen.swift in Sources */,
+				699F17B32691C8F000419271 /* ResultsView.swift in Sources */,
+				699F17C5269269DD00419271 /* HomeView.swift in Sources */,
+				699F17BB2691C90D00419271 /* AboutUsView.swift in Sources */,
+				69DFB29A2696644600543408 /* resultsJSONModel .swift in Sources */,
+				699F17CF26932D1A00419271 /* aboutUsJSONmodel.swift in Sources */,
 				691FA4DD2678EEDF004B7590 /* UppSenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,10 +471,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Uppsala-University.UppSense";
+				PRODUCT_BUNDLE_IDENTIFIER = "UPPSENSE-INFLUSENSE-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,10 +493,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Uppsala-University.UppSense";
+				PRODUCT_BUNDLE_IDENTIFIER = "UPPSENSE-INFLUSENSE-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
