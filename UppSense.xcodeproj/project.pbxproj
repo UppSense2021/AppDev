@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		691FA4DD2678EEDF004B7590 /* UppSenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FA4DC2678EEDF004B7590 /* UppSenseApp.swift */; };
+		691FA4DF2678EEDF004B7590 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FA4DE2678EEDF004B7590 /* ContentView.swift */; };
+		691FA4E12678EEE0004B7590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691FA4E02678EEE0004B7590 /* Assets.xcassets */; };
+		691FA4E42678EEE0004B7590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 691FA4E32678EEE0004B7590 /* Preview Assets.xcassets */; };
+		691FA4EF2678EEE0004B7590 /* UppSenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FA4EE2678EEE0004B7590 /* UppSenseTests.swift */; };
+		691FA4FA2678EEE0004B7590 /* UppSenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FA4F92678EEE0004B7590 /* UppSenseUITests.swift */; };
+		691FA518267A4195004B7590 /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691FA517267A4195004B7590 /* BLEController.swift */; };
+		6925010026B6A13200903FD4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692500FF26B6A13200903FD4 /* LocationManager.swift */; };
+		6925011026B6BB3300903FD4 /* results_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 6925010F26B6BB3300903FD4 /* results_2.json */; };
+		699F17A9268DFDAC00419271 /* QRCodeGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17A8268DFDAC00419271 /* QRCodeGen.swift */; };
+		699F17B32691C8F000419271 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17B22691C8F000419271 /* ResultsView.swift */; };
+		699F17BB2691C90D00419271 /* AboutUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17BA2691C90D00419271 /* AboutUsView.swift */; };
+		699F17C02691C93600419271 /* ContactUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17BF2691C93600419271 /* ContactUsView.swift */; };
+		699F17C5269269DD00419271 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17C4269269DD00419271 /* HomeView.swift */; };
+		699F17CA26932BFB00419271 /* teamMembersInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 699F17C926932BFB00419271 /* teamMembersInfo.json */; };
+		699F17CF26932D1A00419271 /* aboutUsJSONmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699F17CE26932D1A00419271 /* aboutUsJSONmodel.swift */; };
+		69DFB29A2696644600543408 /* resultsJSONModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DFB2992696644600543408 /* resultsJSONModel .swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		691FA4EB2678EEE0004B7590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 691FA4D12678EEDF004B7590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691FA4D82678EEDF004B7590;
+			remoteInfo = UppSense;
+		};
+		691FA4F62678EEE0004B7590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 691FA4D12678EEDF004B7590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 691FA4D82678EEDF004B7590;
+			remoteInfo = UppSense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		691FA4D92678EEDF004B7590 /* UppSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UppSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		691FA4DC2678EEDF004B7590 /* UppSenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UppSenseApp.swift; sourceTree = "<group>"; };
+		691FA4DE2678EEDF004B7590 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		691FA4E02678EEE0004B7590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		691FA4E32678EEE0004B7590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		691FA4E52678EEE0004B7590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691FA4EA2678EEE0004B7590 /* UppSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UppSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		691FA4EE2678EEE0004B7590 /* UppSenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UppSenseTests.swift; sourceTree = "<group>"; };
+		691FA4F02678EEE0004B7590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691FA4F52678EEE0004B7590 /* UppSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UppSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		691FA4F92678EEE0004B7590 /* UppSenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UppSenseUITests.swift; sourceTree = "<group>"; };
+		691FA4FB2678EEE0004B7590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		691FA517267A4195004B7590 /* BLEController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
+		692500FF26B6A13200903FD4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6925010F26B6BB3300903FD4 /* results_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = results_2.json; path = Assets.xcassets/results_2.json; sourceTree = "<group>"; };
+		699F17A8268DFDAC00419271 /* QRCodeGen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGen.swift; sourceTree = "<group>"; };
+		699F17B22691C8F000419271 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		699F17BA2691C90D00419271 /* AboutUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsView.swift; sourceTree = "<group>"; };
+		699F17BF2691C93600419271 /* ContactUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsView.swift; sourceTree = "<group>"; };
+		699F17C4269269DD00419271 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		699F17C926932BFB00419271 /* teamMembersInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = teamMembersInfo.json; path = Assets.xcassets/teamMembersInfo.json; sourceTree = "<group>"; };
+		699F17CE26932D1A00419271 /* aboutUsJSONmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutUsJSONmodel.swift; sourceTree = "<group>"; };
+		69DFB2992696644600543408 /* resultsJSONModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "resultsJSONModel .swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		691FA4D62678EEDF004B7590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691FA4E72678EEE0004B7590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691FA4F22678EEE0004B7590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		691FA4D02678EEDF004B7590 = {
+			isa = PBXGroup;
+			children = (
+				691FA4DB2678EEDF004B7590 /* UppSense */,
+				691FA4ED2678EEE0004B7590 /* UppSenseTests */,
+				691FA4F82678EEE0004B7590 /* UppSenseUITests */,
+				691FA4DA2678EEDF004B7590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		691FA4DA2678EEDF004B7590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				691FA4D92678EEDF004B7590 /* UppSense.app */,
+				691FA4EA2678EEE0004B7590 /* UppSenseTests.xctest */,
+				691FA4F52678EEE0004B7590 /* UppSenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		691FA4DB2678EEDF004B7590 /* UppSense */ = {
+			isa = PBXGroup;
+			children = (
+				691FA4DC2678EEDF004B7590 /* UppSenseApp.swift */,
+				691FA4DE2678EEDF004B7590 /* ContentView.swift */,
+				692500FF26B6A13200903FD4 /* LocationManager.swift */,
+				691FA4E02678EEE0004B7590 /* Assets.xcassets */,
+				691FA517267A4195004B7590 /* BLEController.swift */,
+				699F17A8268DFDAC00419271 /* QRCodeGen.swift */,
+				699F17C4269269DD00419271 /* HomeView.swift */,
+				699F17B22691C8F000419271 /* ResultsView.swift */,
+				69DFB2992696644600543408 /* resultsJSONModel .swift */,
+				699F17BA2691C90D00419271 /* AboutUsView.swift */,
+				6925010F26B6BB3300903FD4 /* results_2.json */,
+				699F17CE26932D1A00419271 /* aboutUsJSONmodel.swift */,
+				699F17C926932BFB00419271 /* teamMembersInfo.json */,
+				699F17BF2691C93600419271 /* ContactUsView.swift */,
+				691FA4E52678EEE0004B7590 /* Info.plist */,
+				691FA4E22678EEE0004B7590 /* Preview Content */,
+			);
+			path = UppSense;
+			sourceTree = "<group>";
+		};
+		691FA4E22678EEE0004B7590 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				691FA4E32678EEE0004B7590 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		691FA4ED2678EEE0004B7590 /* UppSenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				691FA4EE2678EEE0004B7590 /* UppSenseTests.swift */,
+				691FA4F02678EEE0004B7590 /* Info.plist */,
+			);
+			path = UppSenseTests;
+			sourceTree = "<group>";
+		};
+		691FA4F82678EEE0004B7590 /* UppSenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				691FA4F92678EEE0004B7590 /* UppSenseUITests.swift */,
+				691FA4FB2678EEE0004B7590 /* Info.plist */,
+			);
+			path = UppSenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		691FA4D82678EEDF004B7590 /* UppSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691FA4FE2678EEE0004B7590 /* Build configuration list for PBXNativeTarget "UppSense" */;
+			buildPhases = (
+				691FA4D52678EEDF004B7590 /* Sources */,
+				691FA4D62678EEDF004B7590 /* Frameworks */,
+				691FA4D72678EEDF004B7590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UppSense;
+			productName = UppSense;
+			productReference = 691FA4D92678EEDF004B7590 /* UppSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		691FA4E92678EEE0004B7590 /* UppSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691FA5012678EEE0004B7590 /* Build configuration list for PBXNativeTarget "UppSenseTests" */;
+			buildPhases = (
+				691FA4E62678EEE0004B7590 /* Sources */,
+				691FA4E72678EEE0004B7590 /* Frameworks */,
+				691FA4E82678EEE0004B7590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				691FA4EC2678EEE0004B7590 /* PBXTargetDependency */,
+			);
+			name = UppSenseTests;
+			productName = UppSenseTests;
+			productReference = 691FA4EA2678EEE0004B7590 /* UppSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		691FA4F42678EEE0004B7590 /* UppSenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 691FA5042678EEE0004B7590 /* Build configuration list for PBXNativeTarget "UppSenseUITests" */;
+			buildPhases = (
+				691FA4F12678EEE0004B7590 /* Sources */,
+				691FA4F22678EEE0004B7590 /* Frameworks */,
+				691FA4F32678EEE0004B7590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				691FA4F72678EEE0004B7590 /* PBXTargetDependency */,
+			);
+			name = UppSenseUITests;
+			productName = UppSenseUITests;
+			productReference = 691FA4F52678EEE0004B7590 /* UppSenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		691FA4D12678EEDF004B7590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					691FA4D82678EEDF004B7590 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					691FA4E92678EEE0004B7590 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 691FA4D82678EEDF004B7590;
+					};
+					691FA4F42678EEE0004B7590 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 691FA4D82678EEDF004B7590;
+					};
+				};
+			};
+			buildConfigurationList = 691FA4D42678EEDF004B7590 /* Build configuration list for PBXProject "UppSense" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 691FA4D02678EEDF004B7590;
+			productRefGroup = 691FA4DA2678EEDF004B7590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				691FA4D82678EEDF004B7590 /* UppSense */,
+				691FA4E92678EEE0004B7590 /* UppSenseTests */,
+				691FA4F42678EEE0004B7590 /* UppSenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		691FA4D72678EEDF004B7590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				699F17CA26932BFB00419271 /* teamMembersInfo.json in Resources */,
+				6925011026B6BB3300903FD4 /* results_2.json in Resources */,
+				691FA4E42678EEE0004B7590 /* Preview Assets.xcassets in Resources */,
+				691FA4E12678EEE0004B7590 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691FA4E82678EEE0004B7590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691FA4F32678EEE0004B7590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		691FA4D52678EEDF004B7590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691FA4DF2678EEDF004B7590 /* ContentView.swift in Sources */,
+				699F17C02691C93600419271 /* ContactUsView.swift in Sources */,
+				691FA518267A4195004B7590 /* BLEController.swift in Sources */,
+				6925010026B6A13200903FD4 /* LocationManager.swift in Sources */,
+				699F17A9268DFDAC00419271 /* QRCodeGen.swift in Sources */,
+				699F17B32691C8F000419271 /* ResultsView.swift in Sources */,
+				699F17C5269269DD00419271 /* HomeView.swift in Sources */,
+				699F17BB2691C90D00419271 /* AboutUsView.swift in Sources */,
+				69DFB29A2696644600543408 /* resultsJSONModel .swift in Sources */,
+				699F17CF26932D1A00419271 /* aboutUsJSONmodel.swift in Sources */,
+				691FA4DD2678EEDF004B7590 /* UppSenseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691FA4E62678EEE0004B7590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691FA4EF2678EEE0004B7590 /* UppSenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691FA4F12678EEE0004B7590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691FA4FA2678EEE0004B7590 /* UppSenseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		691FA4EC2678EEE0004B7590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 691FA4D82678EEDF004B7590 /* UppSense */;
+			targetProxy = 691FA4EB2678EEE0004B7590 /* PBXContainerItemProxy */;
+		};
+		691FA4F72678EEE0004B7590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 691FA4D82678EEDF004B7590 /* UppSense */;
+			targetProxy = 691FA4F62678EEE0004B7590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		691FA4FC2678EEE0004B7590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		691FA4FD2678EEE0004B7590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		691FA4FF2678EEE0004B7590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UppSense/Preview Content\"";
+				DEVELOPMENT_TEAM = B7SWUBV7N5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UppSense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UPPSENSE-INFLUSENSE-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		691FA5002678EEE0004B7590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UppSense/Preview Content\"";
+				DEVELOPMENT_TEAM = B7SWUBV7N5;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UppSense/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UPPSENSE-INFLUSENSE-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		691FA5022678EEE0004B7590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7SWUBV7N5;
+				INFOPLIST_FILE = UppSenseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uppsala-University.UppSenseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UppSense.app/UppSense";
+			};
+			name = Debug;
+		};
+		691FA5032678EEE0004B7590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7SWUBV7N5;
+				INFOPLIST_FILE = UppSenseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uppsala-University.UppSenseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UppSense.app/UppSense";
+			};
+			name = Release;
+		};
+		691FA5052678EEE0004B7590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7SWUBV7N5;
+				INFOPLIST_FILE = UppSenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uppsala-University.UppSenseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UppSense;
+			};
+			name = Debug;
+		};
+		691FA5062678EEE0004B7590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7SWUBV7N5;
+				INFOPLIST_FILE = UppSenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Uppsala-University.UppSenseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UppSense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		691FA4D42678EEDF004B7590 /* Build configuration list for PBXProject "UppSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691FA4FC2678EEE0004B7590 /* Debug */,
+				691FA4FD2678EEE0004B7590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691FA4FE2678EEE0004B7590 /* Build configuration list for PBXNativeTarget "UppSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691FA4FF2678EEE0004B7590 /* Debug */,
+				691FA5002678EEE0004B7590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691FA5012678EEE0004B7590 /* Build configuration list for PBXNativeTarget "UppSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691FA5022678EEE0004B7590 /* Debug */,
+				691FA5032678EEE0004B7590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		691FA5042678EEE0004B7590 /* Build configuration list for PBXNativeTarget "UppSenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				691FA5052678EEE0004B7590 /* Debug */,
+				691FA5062678EEE0004B7590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 691FA4D12678EEDF004B7590 /* Project object */;
+}
